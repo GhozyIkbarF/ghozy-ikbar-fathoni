@@ -1,6 +1,4 @@
 import { Icons } from "@/components/icons";
-import { hr } from "framer-motion/client";
-import { link } from "fs";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
