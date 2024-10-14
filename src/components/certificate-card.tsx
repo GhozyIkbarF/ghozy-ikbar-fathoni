@@ -8,11 +8,6 @@ interface Props {
   issuer: string;
   image?: string;
   link: string
-  // links?: readonly {
-  //   icon: React.ReactNode;
-  //   title: string;
-  //   href: string;
-  // }[];
 }
 
 export function CertificateCard({
