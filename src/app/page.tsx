@@ -2,6 +2,7 @@ import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
+import { CertificateCard } from "@/components/certificate-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -37,9 +38,23 @@ export default function Page() {
               </Avatar>
             </BlurFade>
           </div>
-          <BlurFade delay={BLUR_FADE_DELAY} className="flex flex-wrap gap-1 text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-            <Link href={DATA.locationLink} className="hover:text-black dark:hover:text-white">{DATA.location}</Link>|
-            <Link href={DATA.contact.linkEmail} className="hover:text-black dark:hover:text-white">{DATA.contact.email}</Link>
+          <BlurFade
+            delay={BLUR_FADE_DELAY}
+            className="flex flex-wrap gap-1 text-pretty font-sans text-sm text-muted-foreground dark:prose-invert"
+          >
+            <Link
+              href={DATA.locationLink}
+              className="hover:text-black dark:hover:text-white"
+            >
+              {DATA.location}
+            </Link>
+            |
+            <Link
+              href={DATA.contact.linkEmail}
+              className="hover:text-black dark:hover:text-white"
+            >
+              {DATA.contact.email}
+            </Link>
             {/* <Link href={DATA.contact.linkTelp} className="hover:text-black dark:hover:text-white">{DATA.contact.telp}</Link> */}
           </BlurFade>
         </div>
@@ -155,6 +170,48 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+        </div>
+      </section>
+      <section id="sertificates">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  Certificates
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  I enjoy expanding my skills
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  I earned multiple certificates and licenses by completing
+                  various courses. Each certification has opened my eyes to new
+                  concepts and tools, pushing me to become more proficient in my
+                  field. It has been an empowering experience, showcasing the
+                  endless possibilities that can be achieved with dedication and
+                  a commitment to growth.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+              {DATA.certificate.map((certificate, id) => (
+                <BlurFade
+                  key={certificate.title + certificate.date}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <CertificateCard
+                    title={certificate.title}
+                    issuer={certificate.issuer}
+                    dates={certificate.date}
+                    image={certificate.image}
+                    link={certificate.credential}
+                  />
+                </BlurFade>
+              ))}
+            </ul>
+          </BlurFade>
         </div>
       </section>
       {/* <section id="hackathons">

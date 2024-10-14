@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { img } from "framer-motion/client";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
@@ -82,7 +83,7 @@ export const DATA = {
       ]  
     },
     {
-      company: 'Dinas Komunikasi dan Informatika Kab. Karanganyar',
+      company: 'DISKOMINFO Kab. Karanganyar',
       href: 'https://diskominfo.karanganyarkab.go.id/',
       location: 'Karanganyar, Central Java',
       title: 'Web Developer',
@@ -273,6 +274,43 @@ export const DATA = {
       ],
       image: "/domclub.png",
       video: "",
+    },
+  ],
+  certificate: [
+    {
+      image: "/udemy.jpeg",
+      title: "Pemrograman Javascript: Pemula sampai mahir",
+      issuer: "Udemy",
+      date: "19 Oct 2023",
+      credential: "https://drive.google.com/file/d/15xvyuD3wA6sbAkJeaSaczbPLKYnxUCO5/view?usp=sharing",
+    },
+    {
+      image: "/progate.jpeg",
+      title: "Javascript Course",
+      issuer: "Progate",
+      date: "2 March 2022",
+      credential: "https://drive.google.com/file/d/1ZhsGs0THppz3sVRj5hrSFG9KMpLG5BjV/view?usp=sharing",
+    },
+    {
+      image: "/progate.jpeg",
+      title: "React JS Course",
+      issuer: "Progate",
+      date: "2 March 2022",
+      credential: "https://drive.google.com/file/d/1e7bc2PTH68RWKAzfl0fLz23xZ439Mxv5/view?usp=sharing",
+    },
+    {
+      image: "/progate.jpeg",
+      title: "Git Course",
+      issuer: "Progate",
+      date: "3 March 2022",
+      credential: "https://drive.google.com/file/d/1FyTsTYCydcWjjVE8a0nPXn3nJHg2ctIa/view?usp=sharing",
+    },
+    {
+      image: "/hackerrank.jpeg",
+      title: "Problem Solving (Basic)",
+      issuer: "HackerRank",
+      date: "8 Feb 2023",
+      credential: "https://www.hackerrank.com/certificates/9137c006f183",
     },
   ],
   hackathons: [

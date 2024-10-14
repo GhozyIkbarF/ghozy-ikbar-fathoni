@@ -4,14 +4,14 @@ publishedAt: "2024-06-18"
 summary: "My blog about master anas."
 ---
 
-Hi there!
+Hi there! I am a student of master anas
 
 ```jsx
-const master_anas = 'master'
-const checkIsMaster = (value:string){
-    const isMaster = value === 'master' ? true : false;
-    return isMaster
-}
+const master_anas: string = 'master';
 
-checkIsMaster(master_anas) //the result must be master
+const checkIsMaster = (value: string): boolean => {
+  return value === 'master';
+};
+
+console.log(checkIsMaster(master_anas)); // Output must be: true
 ```
