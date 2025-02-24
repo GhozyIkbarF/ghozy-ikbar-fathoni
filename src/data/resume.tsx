@@ -7,8 +7,8 @@ export const DATA = {
   url: "https://dillion.io",
   location: "Boyolali, Central Java, Indonesia",
   locationLink: "http://maps.google.com/maps/@-7.516667,110.600000,17z?source=sh%2Fx%2Fsrp%2Fwr%2Fm1%2F1&kgs=2fe6cb3d35335923",
-  description: "Web Developer. I love building things and helping people. Very active on Twitter.",
-  summary: "As a fresh graduate from Computer Science at Muhammadiyah University of Surakarta, I am passionate about web development with strong skills in HTML, CSS, JavaScript, TypeScript, and various front-end frameworks like React JS and Laravel. I specialize in crafting visually appealing and user-friendly websites, backed by a deep understanding of web design principles, responsive design, and best practices in web development. Eager to contribute my skills to innovative projects and continue growing in the ever-evolving tech landscape.",
+  description: "I love building things and helping people. Very active on Twitter.",
+  summary: "As a graduate from Computer Science at Muhammadiyah University of Surakarta, I am passionate about web development with strong skills in HTML, CSS, JavaScript, TypeScript, and various front-end frameworks like React JS and Laravel. I specialize in crafting visually appealing and user-friendly websites, backed by a deep understanding of web design principles, responsive design, and best practices in web development. Eager to contribute my skills to innovative projects and continue growing in the ever-evolving tech landscape.",
   avatarUrl: "/me.jpeg",
   skills: [
     "React",
@@ -20,6 +20,8 @@ export const DATA = {
     "MySQL",
     "TailwindCSS",
     "Git",
+    "Figma",
+    "Microsoft Office",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -101,7 +103,10 @@ export const DATA = {
       badges: [],
       start: 'Feb 2022',
       end: 'July 2022',
-      description: 'Developed a web application for the Goto Impact Foundation which allows users to donate to various causes and track their impact. Implemented a custom React component library using TailwindCSS and Storybook. Integrated the application with the Stripe API to handle donations and subscriptions.',
+      description: [
+        'Introduced to JavaScript most popular library ReactJS',
+        'Developed an learing platform using ReactJS.',
+      ],
     },
   ],
   education: [
@@ -199,12 +204,13 @@ export const DATA = {
     {
       title: "Movies App",
       href: "https://ghozyikbarf-movie-collection.vercel.app",
-      dates: "7 - 10 Oct 2024",
+      dates: "7 - 10 Oct 2023",
       active: true,
       description:
         "A movies app for searching your favorite movies.",
       technologies: [
         "Next.js",
+        "Typescript",
         "TailwindCSS",
       ],
       links: [
@@ -225,7 +231,7 @@ export const DATA = {
     {
       title: "Gaveeta",
       href: "",
-      dates: "7 - 10 Oct 2024",
+      dates: "7 March - 21 Juli 2023",
       active: false,
       description:
         "A website application to manage orders on gaveeta.",
@@ -248,12 +254,13 @@ export const DATA = {
     {
       title: "DomClub",
       href: "https://domsat-course.vercel.app",
-      dates: "7 - 10 Oct 2024",
+      dates: "21 August - 10 Oct 2024",
       active: false,
       description:
         "A website application that provides paid online courses and has an online store.",
       technologies: [
         "Next JS",
+        "Typescript",
         "Material Tailwind",
         "TailwindCSS",
         "Supabase",
@@ -274,6 +281,33 @@ export const DATA = {
       image: "/domclub.png",
       video: "",
     },
+    {
+      title: "Domsat Web Profile",
+      href: "",
+      dates: "Nov 12 - 26 2024",
+      active: false,
+      description:
+        "An website Domsat company profile",
+      technologies: [
+        "Next JS",
+        "Typescript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.domsat.co.id",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Domsatio/company-profile",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/domsat_profile.png",
+      video: "",
+    }
   ],
   certificate: [
     {
