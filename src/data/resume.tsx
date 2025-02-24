@@ -95,7 +95,7 @@ export const DATA = {
       description: 'Teaming up on developing Surat Perintah Perjalanan Dinas Web Application using Laravel.',
     },
     {
-      company: 'Studi Independen - Goto Impact Foundation',
+      company: 'Study Independen - Goto Impact Foundation',
       href: 'https://goto-impact.org',
       location: 'Remote',
       title: 'Fontend Developer',
@@ -120,6 +120,64 @@ export const DATA = {
     },  
   ],
   projects: [
+    {
+      title: "Domsat Web Profile",
+      href: "",
+      dates: "Nov 12 - 26 2024",
+      active: false,
+      description:
+        "An website Domsat company profile",
+      technologies: [
+        "Next JS",
+        "Typescript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.domsat.co.id",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Domsatio/company-profile",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/domsat_profile.png",
+      video: "",
+    },
+    {
+      title: "DomClub",
+      href: "https://domsat-course.vercel.app",
+      dates: "21 August - 10 Oct 2024",
+      active: false,
+      description:
+        "A website application that provides paid online courses and has an online store. This website olso have admin side to manage content, order, and make report.",
+      technologies: [
+        "Next JS",
+        "Typescript",
+        "Material Tailwind",
+        "TailwindCSS",
+        "Prisma",
+        "Supabase",
+        "Midtrans",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://domsat-course.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Domsatio/Course",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/domclub.png",
+      video: "",
+    },
     {
       title: "Quiz App",
       href: "https://quizapptrivia.vercel.app",
@@ -158,7 +216,7 @@ export const DATA = {
       technologies: [
         "Next.js",
         "Typescript",
-        "Express",
+        "Express JS",
         "Prisma",
         "TailwindCSS",
         "Radix UI",
@@ -185,7 +243,7 @@ export const DATA = {
       dates: "April 2023 - September 2023",
       active: false,
       description:
-        "Developed an website application for ordering Umrah packages.",
+        "Developed an website application for Travel Umrah company profile and olso has admin side to organize content.",
       technologies: [
         "Laravel",
         "MySQL",
@@ -251,63 +309,6 @@ export const DATA = {
       image: "/gaveeta.png",
       video: "",
     },
-    {
-      title: "DomClub",
-      href: "https://domsat-course.vercel.app",
-      dates: "21 August - 10 Oct 2024",
-      active: false,
-      description:
-        "A website application that provides paid online courses and has an online store.",
-      technologies: [
-        "Next JS",
-        "Typescript",
-        "Material Tailwind",
-        "TailwindCSS",
-        "Supabase",
-        "Midtrans",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://domsat-course.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Domsatio/Course",
-          icon: <Icons.github className="size-3" />,
-        }
-      ],
-      image: "/domclub.png",
-      video: "",
-    },
-    {
-      title: "Domsat Web Profile",
-      href: "",
-      dates: "Nov 12 - 26 2024",
-      active: false,
-      description:
-        "An website Domsat company profile",
-      technologies: [
-        "Next JS",
-        "Typescript",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.domsat.co.id",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Domsatio/company-profile",
-          icon: <Icons.github className="size-3" />,
-        }
-      ],
-      image: "/domsat_profile.png",
-      video: "",
-    }
   ],
   certificate: [
     {
