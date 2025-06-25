@@ -207,7 +207,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Inkta",
+      title: "Inkata",
       href: "https://inkata.vercel.app",
       dates: "1 - 8 Oct 2023",
       active: true,
