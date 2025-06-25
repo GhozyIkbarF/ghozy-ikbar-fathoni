@@ -142,7 +142,7 @@ export const DATA = {
           type: "Source",
           href: "https://github.com/Domsatio/company-profile",
           icon: <Icons.github className="size-3" />,
-        }
+        },
       ],
       image: "/domsat_profile.png",
       video: "",
@@ -204,6 +204,35 @@ export const DATA = {
         },
       ],
       image: "/quizapp.png",
+      video: "",
+    },
+    {
+      title: "Inkta",
+      href: "https://inkata.vercel.app",
+      dates: "1 - 8 Oct 2023",
+      active: true,
+      description:
+        "Inkata is a simple and powerful platform that lets you create, manage, and read articles with ease. Whether you're writing for yourself, your team, or the world — Inkata helps you stay organized and inspired..",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://inkata.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/GhozyIkbarF/test-fe-seller-pinter",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/inkata.png",
       video: "",
     },
     {
